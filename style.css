@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(Foto/Fon-BODY.jpg);
+}
+.header {
+  position: sticky;
+  z-index: 25;
+  top: 0px;
+}
+.fon-header {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.row-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.navigation {
+  width: 100%;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.menu-block {
+  max-width: 100%;
+  max-height: 100%;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+}
+.menu li {
+  color: white;
+  width: 33%;
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.menu li:hover {
+  background-color: teal;
+  opacity: 75%;
+  color: white;
+}
+.form-search {
+  position: relative;
+}
+.form-search input {
+  padding: 10px;
+  font-weight: bold;
+}
+.title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.title-1 {
+  padding-left: 25px;
+  border-left: 5px solid grey;
+  font-size: 36px;
+  font-weight: bold;
+  width: 100%;
+  color: black;
+  text-transform: uppercase;
+}
+.slide-1 {
+  background-color: rgb(228, 210, 176, 0.75);
+}
+.title-2 {
+  padding-left: 25px;
+  border-left: 5px solid grey;
+  font-size: 36px;
+  font-weight: bold;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+}
+.slide-2 {
+  background-color: rgb(59, 15, 15, 0.75);
+}
+.power-words {
+  padding-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.power-words-1,
+.power-words-2,
+.power-words-3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid brown;
+}
+.bible-foto {
+  padding-bottom: 20px;
+}
+.bible-words {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.bible-text {
+  padding-top: 20px;
+}
+.books {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.name-book {
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px;
+  color: rgb(125, 7, 172);
+}
+.about-book {
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+}
+
+@media (max-width: 992px) {
+  .logo {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-search input {
+    background: transparent;
+    border: none;
+    color: white;
+  }
+  .form-search > input {
+    width: 80%;
+  }
+  .form-search > button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    background: transparent;
+    background-image: url(Foto/loop_g.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .form-search input:focus {
+    outline: none;
+  }
+  .form-search:hover {
+    border: 2px solid white;
+  }
+}

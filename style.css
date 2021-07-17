@@ -118,7 +118,7 @@ body {
 }
 .about-foto-priest {
   margin: 10px;
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 }
 .about-foto-priest img {
   width: 100%;
@@ -132,7 +132,7 @@ body {
   font-weight: lighter;
   font-size: 20px;
   margin: 10px;
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 }
 .about-text-priest p {
   padding: 10%;
@@ -145,6 +145,7 @@ body {
   margin: 5px;
   padding: 5px;
   text-align: center;
+  margin-bottom: 50px;
 }
 .name-book {
   text-transform: uppercase;
@@ -162,6 +163,7 @@ body {
   margin: 10px;
   border: 3px solid brown;
   padding: 10px;
+  margin-bottom: 50px;
 }
 .parish-life-block img {
   width: 100%;
@@ -191,7 +193,7 @@ body {
   color: white;
 }
 .contact-info-icon {
-  margin-bottom: 5%;
+  margin-bottom: 50px;
   width: 50%;
 }
 .icon-info {

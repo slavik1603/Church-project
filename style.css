@@ -136,6 +136,9 @@ body {
 }
 .about-text-priest p {
   padding: 10%;
+  padding-top: 10%;
+  padding-bottom: 40%;
+  font-size: 20px;
   text-align: center;
 }
 .books {
@@ -155,6 +158,87 @@ body {
   font-family: "Pacifico", cursive;
   font-weight: lighter;
 }
+.parish-life-block {
+  margin: 10px;
+  border: 3px solid brown;
+  padding: 10px;
+}
+.parish-life-block img {
+  width: 100%;
+}
+.parish-life-1 .log {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: brown;
+}
+.parish-life-about span {
+  font-weight: bold;
+}
+.google-map {
+  width: 100%;
+}
+.contact-info {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 25px;
+}
+.contact-info h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.contact-info-icon {
+  margin-bottom: 5%;
+  width: 50%;
+}
+.icon-info {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-fb-inf {
+  background-image: url(Foto/fb-icon.png);
+}
+.icon-mail-inf {
+  background-image: url(Foto/letter-icon.ico);
+  background-size: 80%;
+}
+.icon-phone-inf {
+  background-image: url(Foto/phone-icon.ico);
+  background-size: 80%;
+}
+.icon-skype-inf {
+  background-image: url(Foto/skype-icon.png);
+}
+.contact-info-fb,
+.contact-info-mail,
+.contact-info-phone,
+.contact-info-skype {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.contact-info-fb:hover,
+.contact-info-mail:hover,
+.contact-info-phone:hover,
+.contact-info-skype:hover {
+  background-color: white;
+}
+footer {
+  background-color: black;
+}
+.site-information {
+  padding: 3%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
 
 @media (max-width: 767px) {
   .about-text-priest {
@@ -172,8 +256,11 @@ body {
   .logo {
     text-align: center;
   }
-  .about-text-priest {
+  .about-text-priest p {
     font-size: 14px;
+  }
+  .contact-info-icon {
+    width: 100%;
   }
 }
 
